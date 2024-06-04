@@ -1,4 +1,4 @@
-package Gestion.ContratoMaestro;
+package PR2.ContratoMaestro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

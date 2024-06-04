@@ -8,10 +8,10 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>Gestion</groupId>
+	<groupId>PR2</groupId>
 	<artifactId>ContratoMaestro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Contrato Maestro</name>
+	<name>ContratoMaestro</name>
 	<description>Un sistema para el registro digital y la gestión de contratos y pagos.</description>
 	<properties>
 		<java.version>22</java.version>
@@ -27,8 +27,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
