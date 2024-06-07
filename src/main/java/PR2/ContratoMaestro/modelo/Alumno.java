@@ -1,4 +1,5 @@
 package PR2.ContratoMaestro.modelo;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -8,6 +9,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.time.LocalDate;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -15,9 +18,14 @@ import lombok.ToString;
 @ToString
 public class Alumno {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer idAlumno;
+
     String nombre;
-    String departamento;
+    String apellido;
+    String cedula;
+    LocalDate fecha_nacimiento;
+    String direccion;
+    String ciudad;
+    String contacto;
     String infoEmergencia;
 }
